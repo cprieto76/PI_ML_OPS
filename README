@@ -190,7 +190,7 @@ Este análisis exploratorio de datos fue fundamental para obtener conocimientos 
 
 # Sistema de Recomendación
 
-## Desarrollo de Modelos de Machine Learning
+## 3) Desarrollo de Modelos de Machine Learning
 
 Además del análisis exploratorio de datos, implemente un modelo de Machine Learning para resolver el siguiente desafío:
 
@@ -201,35 +201,7 @@ Además del análisis exploratorio de datos, implemente un modelo de Machine Lea
 
 Para el desarrollo del sistema de recomendación, se nos proporcionó un enunciado. Cito fracción textual del enunciado: "Este consiste en recomendar películas a los usuarios basándose en películas similares, por lo que se debe encontrar la similitud de puntuación entre esa película y el resto de películas". El enunciado me pide que encuentre la similitud de puntuación entre una película y las demás películas, y naturalmente, lo primero que me viene a la mente para crear el sistema de recomendación es utilizar la función "cosine_similarity".
 
-La función "cosine_similarity" es una medida comúnmente utilizada en el campo de la recuperación de información y la minería de texto para evaluar la similitud entre dos vectores de características. En particular, la similitud del coseno se utiliza con mayor frecuencia para comparar la similitud entre vectores que representan documentos o textos.
-
-Sin embargo, la función "cosine_similarity" tiene algunas limitaciones, y una de las que más llamó mi atención es que opera con vectores de características numéricas. Por lo tanto, si los vectores contienen valores no numéricos o datos no estructurados, es posible que la función no sea aplicable directamente. Esta limitación captó mi atención, pero también hay otras consideraciones, como el espacio vectorial, la longitud y dimensionalidad de los vectores, la sensibilidad a la magnitud, entre otras.
-
-Para poder realizar una mejor predicción en el modelo, no solo podía basarme en la puntuación de la película, ya que existen otros factores importantes y de mucha más relevancia que la puntuación. Un ejemplo de ello es el género de la película. En un caso concreto, puedo mencionar dos películas con altas puntuaciones, pero de géneros totalmente distintos.
-
-Sería absurdo recomendarle a un usuario que acaba de ver "The Shawshank Redemption" (Cadena perpetua), que es un drama carcelario basado en la novela de Stephen King, una película como "The Dark Knight" (El Caballero Oscuro), que es una película de superhéroes y acción basada en el personaje de Batman de DC Comics.
-
-Este incoherencia me llevó a plantearme muchas preguntas, pero las más relevantes fueron las siguientes:
-
-* ¿Qué le gustaría ver al usuario después de ver una película que le ha gustado mucho?
-* ¿Realmente querría ver películas con una valoración similar o igual a la que le ha gustado?
-* ¿Dónde reside la ganancia real en el negocio de los servicios de streaming pagados?
-
-No podía quedarme con la duda, así que comencé a investigar. En primer lugar, revisé un trabajo de fin de grado de un tal David López Delgado, estudiante de la Universidad de Sevilla, en la facultad de Ciencias Económicas y Empresariales. Su trabajo lleva por título: "ESTUDIO DE LAS PLATAFORMAS DE STREAMING". Este trabajo analiza las principales plataformas de contenido audiovisual bajo demanda de pago que operan en España, tratando su origen, características generales y estrategias de marketing que llevan a cabo.
-
-Por otro lado, también revisé una tesis doctoral de una brillante investigadora llamada Jessica Izquierdo Castillo, de la Universidad de Jaume (España), del departamento de Filosofía y Sociología Comunicacional Audiovisual y Publicidad. La tesis es un poco antigua, pero contiene un valioso contenido informativo. De hecho, si alguien trabaja en una empresa que presta servicios de streaming u otro relacionado con marketing y publicidad, este material sería considerado como un recurso imprescindible. El título de la tesis doctoral es: "Distribución y Exhibición Cinematográfica en España. Un estudio de situación del negocio en la transición tecnológica digital".
-
-Después de informarme mejor a través de estos recursos y otros artículos, he llegado a la conclusión de que, desde el punto de vista comercial y netamente capitalista, a las empresas que prestan servicios de streaming de pago no les interesa realmente recomendarte una película que te vaya a gustar de manera certera. Su objetivo principal es lograr que el usuario consuma contenido en la plataforma.
-
-Estas empresas realizan grandes inversiones en la industria cinematográfica, invirtiendo en grandes empresas que producen películas y desarrollan nuevas tecnologías cinematográficas. También invierten en startups dedicadas al cine, la creación de documentales, series, entre otros.
-
-Estas compañías necesitan recuperar su inversión, y la forma obvia de hacerlo es asegurarse de que los usuarios de estas plataformas consuman la mayor cantidad de contenido posible, sin importar la puntuación de las películas o series que hayan visto.
-
-¿Comprendes mi punto de vista?
-
-Por esta razón, decidí no utilizar la función "cosine_similarity", ya que para realizar recomendaciones se requieren muchos factores no numéricos que son de gran importancia al manipular al usuario y fomentar el consumo generalizado de contenido en una plataforma de streaming de pago.
-
-En su lugar, utilicé el método "k vecinos más cercanos" (KNN) para construir mi modelo. KNN es un algoritmo de aprendizaje automático supervisado que se utiliza para clasificación y regresión. Funciona encontrando los "k" puntos de datos más cercanos en función de una medida de distancia (por ejemplo, distancia euclidiana) y tomando una decisión basada en las etiquetas de clase o los valores de los vecinos más cercanos.
+Utilicé el método "k vecinos más cercanos" (KNN) para construir mi modelo. KNN es un algoritmo de aprendizaje automático supervisado que se utiliza para clasificación y regresión. Funciona encontrando los "k" puntos de datos más cercanos en función de una medida de distancia (por ejemplo, distancia euclidiana) y tomando una decisión basada en las etiquetas de clase o los valores de los vecinos más cercanos.
 
 KNN funciona bien con datos estructurados y numéricos, lo cual puede ser adecuado para tu conjunto de datos si tienes columnas como valoración numérica y no numerica. Además, las medidas de distancia utilizadas en KNN se basan en la proximidad espacial de los puntos de datos, lo que puede ser más apropiado para conjuntos de datos numéricos.
 
