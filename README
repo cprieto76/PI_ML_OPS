@@ -205,13 +205,9 @@ Utilicé el método "k vecinos más cercanos" (KNN) para construir mi modelo. KN
 
 KNN funciona bien con datos estructurados y numéricos, lo cual puede ser adecuado para tu conjunto de datos si tienes columnas como valoración numérica y no numerica. Además, las medidas de distancia utilizadas en KNN se basan en la proximidad espacial de los puntos de datos, lo que puede ser más apropiado para conjuntos de datos numéricos.
 
-KNN es especialmente útil cuando se espera que los puntos de datos similares estén cerca en el espacio de características. Si se espera que las películas con características similares estén cercanas en el espacio de características, KNN podría ser una opción adecuada para encontrar películas similares basándose en sus vecinos más cercanos.
-
 KNN es especialmente útil cuando se espera que los puntos de datos similares estén cerca en el espacio de características. En el caso de datos numéricos, KNN tiene en cuenta la proximidad espacial de los puntos de datos y puede ser una opción adecuada para encontrar películas similares basándose en sus vecinos más cercanos. Esto significa que si una película tiene características numéricas, como la puntuación de los usuarios, KNN puede ser útil para encontrar películas con puntuaciones similares.
 
 Sin embargo, lo interesante de KNN es que también puede aplicarse a conjuntos de datos que contienen información no numérica, como la columna de géneros en el caso de las películas. Aunque el algoritmo se basa en la distancia entre puntos de datos, la representación de los datos en un espacio de características adecuado puede permitir que KNN capture similitudes entre películas con géneros similares.
-
-Por lo tanto, al desarrollar un sistema de recomendación completo y preciso, es importante considerar tanto los aspectos numéricos, como la puntuación de las películas, como los aspectos no numéricos, como el género de las películas. KNN ofrece flexibilidad al trabajar con ambos tipos de datos, lo que lo convierte en una opción interesante para construir un sistema de recomendación que tome en cuenta múltiples factores.
 
 En conclusión, KNN es una buena opción cuando se trabaja con datos numéricos, pero también puede ser utilizado de manera efectiva en conjuntos de datos que contengan información no numérica, como los géneros de las películas. Esto permite construir un sistema de recomendación más completo al considerar tanto las puntuaciones como otros factores relevantes, proporcionando recomendaciones más precisas y personalizadas.
 
