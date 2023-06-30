@@ -239,8 +239,6 @@ KNN es especialmente útil cuando se espera que los puntos de datos similares es
 
 Sin embargo, lo interesante de KNN es que también puede aplicarse a conjuntos de datos que contienen información no numérica, como la columna de géneros en el caso de las películas. Aunque el algoritmo se basa en la distancia entre puntos de datos, la representación de los datos en un espacio de características adecuado puede permitir que KNN capture similitudes entre películas con géneros similares.
 
-![1687974441364](image/README/1687974441364.png)
-
 Por lo tanto, al desarrollar un sistema de recomendación completo y preciso, es importante considerar tanto los aspectos numéricos, como la puntuación de las películas, como los aspectos no numéricos, como el género de las películas. KNN ofrece flexibilidad al trabajar con ambos tipos de datos, lo que lo convierte en una opción interesante para construir un sistema de recomendación que tome en cuenta múltiples factores.
 
 En conclusión, KNN es una buena opción cuando se trabaja con datos numéricos, pero también puede ser utilizado de manera efectiva en conjuntos de datos que contengan información no numérica, como los géneros de las películas. Esto permite construir un sistema de recomendación más completo al considerar tanto las puntuaciones como otros factores relevantes, proporcionando recomendaciones más precisas y personalizadas.
@@ -301,12 +299,7 @@ Para crear y activar un entorno virtual con Virtualenv, puedes utilizar los sigu
 <pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs">nombre_del_entorno\Scripts\activate
 </code></div></div></pre>
 
-* En macOS/Linux:
-
-<pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">source nombre_del_entorno/bin/activate
-</code></div></div></pre>
-
-Una vez que hayas activado el entorno virtual, puedes proceder a instalar las librerías y frameworks mencionados utilizando los comandos que proporcioné anteriormente. Esto asegurará que las dependencias se instalen dentro del entorno virtual y no afecten a tu entorno de desarrollo principal.
+*Una vez que hayas activado el entorno virtual, puedes proceder a instalar las librerías y frameworks mencionados utilizando los comandos que proporcioné anteriormente. Esto asegurará que las dependencias se instalen dentro del entorno virtual y no afecten a tu entorno de desarrollo principal.
 
 Recuerda que, para desactivar el entorno virtual, simplemente ejecuta el comando `deactivate`.
 
@@ -332,12 +325,10 @@ Una vez que el archivo `requirements.txt` está correctamente configurado, Rende
 <a href="https://jorgeluisgarcia-pt01.onrender.com/" target="_blank">Mi Aplicacion</a>
 
 
-
-
 ---
 
 
-<a href="https://youtu.be/vhlR6XJjDKM" target="_blank">Video de Demostración</a>
+
 
 ---
 
