@@ -91,15 +91,9 @@ f) Eliminar las columnas que no serán utilizadas, video,imdb_id,adult,original
 
 Se separaron los datos en conjuntos específicos, como datafinal.csv, Machine_data.csv, cast_data.csv, crew_data.csv y genres_final.csv.
 
-El archivo ML_data.csv desempeñó un papel fundamental en mi proyecto de Machine Learning. Las columnas disponibles en este conjunto de datos me proporcionaron la información necesaria para realizar una predicción utilizando el algoritmo de "Vecinos más Cercanos" (K-Nearest Neighbors) en el contexto de Machine Learning. Utilizando estas características, pude entrenar el modelo y hacer predicciones precisas sobre la popularidad de las películas.
+El archivo Machine_data.csv se utilizo para ananalis de Machine Learning. Se utilizo algoritmo de "Vecinos más Cercanos" (K-Nearest Neighbors). 
 
-El diccionario de datos asociado a datasets_final.csv proporciona descripciones detalladas de cada columna en este conjunto de datos, lo cual es fundamental para comprender la información contenida en él. Al conocer el propósito y el significado de cada columna, puedo tomar decisiones más informadas y realizar análisis más precisos y relevantes.
-
-Del mismo modo, los diccionarios de datos asociados a cast_data.csv, crew_data.csv y movie_genres.csv me permiten entender rápidamente las columnas presentes en cada conjunto de datos y su significado. Esto facilita la manipulación, el procesamiento y la interpretación de los datos en cada contexto específico.
-
-En resumen, la separación de los datos en diferentes conjuntos y la creación de diccionarios de datos específicos para cada uno de ellos ha sido una elección estratégica en mi proyecto individual de Ciencia de Datos. Esta estructura modular y descriptiva me ha permitido realizar análisis más profundos, utilizar el conjunto de datos ML_data.csv para el entrenamiento de un modelo de Machine Learning y realizar predicciones precisas utilizando el algoritmo de "Vecinos más Cercanos" (K-Nearest Neighbors). Además, me ha proporcionado una visión más completa de los diferentes aspectos de las películas, como su información general, elenco, equipo de producción y géneros.
-
-A continuación se muestra un diccionario que describe cada columna en el conjunto de datos del archivo datasets_final.csv:
+A continuación se muestra un diccionario que describe cada columna en el conjunto de datos del archivo data_final.csv:
 
 ```python
 column_description = {
@@ -134,7 +128,7 @@ column_description = {
 
 ```
 
-A continuación se muestra un diccionario que describe cada columna en el conjunto de datos del archivo ML_data.csv:
+A continuación se muestra un diccionario que describe cada columna en el conjunto de datos del archivo Machine_data.csv:
 
 ```python
 column_description = {
@@ -171,7 +165,7 @@ column_description = {
 
 ```
 
-A continuación se muestra un diccionario que describe cada columna en el conjunto de datos del archivo movie_genres.csv:
+A continuación se muestra un diccionario que describe cada columna en el conjunto de datos del archivo genres_final.csv:
 
 ```python
 column_description = {
@@ -182,7 +176,7 @@ column_description = {
 
 ```
 
-## Análisis Exploratorio de Datos (EDA)
+## 2) EDA. Análisis Exploratorio de Datos
 
 Después de completar las tareas de limpieza de datos, realicé un análisis exploratorio exhaustivo utilizando técnicas estadísticas y visualizaciones. El archivo donde se llevó a cabo este análisis se encuentra en la carpeta "data_a_explorar", en un notebook que contiene las gráficas de exploración.
 
