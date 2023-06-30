@@ -77,22 +77,19 @@ a) Desanidar campos:
 
 Se descarto trabajar con la columna spoken_languages debido al alcance del trabajo
 															
-Los valores nulos de los campos revenue, budget deben ser rellenados por el número 0.															
+b) Rellenar valores nulos de los campos revenue y budget con el número 0.															
 															
-Los valores nulos del campo release date deben eliminarse.															
-	Pendiente la anulacion														
-De haber fechas, deberán tener el formato AAAA-mm-dd, además deberán crear la columna release_year donde extraerán el año de la fecha de estreno.															
+c) Eliminar los valores nulos del campo release date .															
+													
+d) De haber fechas, deberán tener el formato AAAA-mm-dd, además deberán crear la columna release_year donde extraerán el año de la fecha de estreno.															
 															
-Crear la columna con el retorno de inversión, llamada return con los campos revenue y budget, dividiendo estas dos últimas revenue / budget, cuando no hay datos disponibles para calcularlo, deberá tomar el valor 0.															
-															
-															
-Eliminar las columnas que no serán utilizadas, video,imdb_id,adult,original_title,poster_path y homepage.															
+e) Crear la columna con el retorno de inversión, llamada return con los campos revenue y budget, dividiendo estas dos últimas revenue / budget, cuando no hay datos disponibles para calcularlo, deberá tomar el valor 0.															
+												
+f) Eliminar las columnas que no serán utilizadas, video,imdb_id,adult,original_title,poster_path y homepage.															
 
 ## Diccionario de datos
 
-Haber separado los datos en diferentes conjuntos y crear diccionarios de datos para cada uno de ellos ha sido una decisión clave en mi proyecto individual de Ciencia de Datos. Esta estructura organizativa me ha brindado una serie de beneficios importantes.
-
-Al separar los datos en conjuntos específicos, como datasets_final.csv, ML_data.csv, cast_data.csv, crew_data.csv y movie_genres.csv, he logrado una mayor modularidad y claridad en la estructura de mi proyecto. Cada archivo representa un aspecto distinto de los datos y me permite trabajar en cada uno de ellos de manera independiente y centrada en sus características únicas.
+Se separaron los datos en conjuntos específicos, como datafinal.csv, Machine_data.csv, cast_data.csv, crew_data.csv y genres_final.csv.
 
 El archivo ML_data.csv desempeñó un papel fundamental en mi proyecto de Machine Learning. Las columnas disponibles en este conjunto de datos me proporcionaron la información necesaria para realizar una predicción utilizando el algoritmo de "Vecinos más Cercanos" (K-Nearest Neighbors) en el contexto de Machine Learning. Utilizando estas características, pude entrenar el modelo y hacer predicciones precisas sobre la popularidad de las películas.
 
