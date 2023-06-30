@@ -331,31 +331,11 @@ Una vez que el archivo `requirements.txt` está correctamente configurado, Rende
 
 <a href="https://jorgeluisgarcia-pt01.onrender.com/" target="_blank">Mi Aplicacion</a>
 
-# FrontEnd
 
-## Generalidades
 
-Además del desarrollo de la API, se creó una pequeña interfaz visual estática utilizando HTML, CSS, JavaScript y AJAX. Esta interfaz tiene como objetivo brindar una experiencia más cómoda y amigable al momento de realizar pruebas de consumo de la API.
-
-El uso de HTML permitió estructurar y organizar los elementos de la interfaz, como formularios, botones y secciones informativas. CSS se utilizó para aplicar estilos visuales a estos elementos, como colores, fuentes, márgenes y bordes, para lograr una apariencia atractiva y coherente.
-
-JavaScript fue empleado para agregar interactividad a la interfaz, permitiendo la manipulación de elementos en tiempo real y la respuesta a acciones del usuario. Esta interactividad mejoró la experiencia del usuario al proporcionar retroalimentación instantánea y realizar actualizaciones dinámicas de contenido en la interfaz.
-
-Por último, AJAX (Asynchronous JavaScript and XML) se utilizó para realizar peticiones asíncronas a la API desde la interfaz. Esto permitió enviar y recibir datos en segundo plano sin tener que recargar la página, lo cual mejoró la eficiencia y la fluidez de la interacción con la API.
-
-En resumen, la creación de esta interfaz visual estática con HTML, CSS, JavaScript y AJAX brindó una capa adicional de comodidad al realizar pruebas de consumo de la API. Esta interfaz permitió interactuar con la API de manera intuitiva y visualmente atractiva, facilitando la visualización de los resultados y la exploración de las funcionalidades ofrecidas por la API.
-
-<a href="https://jorgeluisgarcia-pt01.onrender.com/" target="_blank">Mi Aplicacion</a>
-
-![1687974100473](image/README/1687974100473.png)
-
-![1687974176499](image/README/1687974176499.png)
 
 ---
 
-# Video de Demostración
-
-En este video tutorial, podrán encontrar una descripción paso a paso de cómo utilizar la aplicación, las principales funcionalidades que ofrece y cómo aprovechar al máximo sus características.
 
 <a href="https://youtu.be/vhlR6XJjDKM" target="_blank">Video de Demostración</a>
 
