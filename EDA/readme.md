@@ -4,7 +4,7 @@ Gran herramienta para crear informes en formato HTML interactivo, fácil para en
 
 ## Analisis del informe report.html
 
-### 1) Overview
+### 1. Overview
 
 #### 1.1 Aspectos a destacar
 
@@ -17,6 +17,14 @@ Gran herramienta para crear informes en formato HTML interactivo, fácil para en
 
 
 #### 1.2 Acciones a desarrollar
+
+### 2. Alertas
+
+#### 2.1 Correlacion Alta
+
+a) popularity vs vote_count
+b) 
+
 
 
 
