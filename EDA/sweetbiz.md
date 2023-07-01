@@ -4,7 +4,7 @@ Herramienta toma dataframes de pandas y crea un informe HTML autónomo que se pu
 
 Además de crear visualizaciones interesantes y hermosas con solo dos líneas de código, proporciona un análisis que llevaría mucho más tiempo generar manualmente.
 
-## Analisis del informe report.html (Duración Analisis: 1 minuto 15 segundos)
+## Analisis del informe sweetviz_report.html (Duración Analisis:      )
 ### Primer vistazo a estado de los datos que pueden requerir transformacion para un analisis mas acertado.
 
 ### 1. Overview
