@@ -23,10 +23,10 @@ Gran herramienta para crear informes en formato HTML interactivo, utilizado para
 
 #### 2.1 Correlacion Alta
 
-a) popularity vs vote_count
-b) vote_count vs revenue
-c) budget vs revenue
-d) budget vs return
+- popularity vs vote_count
+- vote_count vs revenue
+- budget vs revenue
+- budget vs return
 
 Nota: Revisar si los ceros y valores faltantes puede afetar este analisis
 
