@@ -51,7 +51,7 @@ Los siguientes features, y la cantidad y porcentaje de valores faltantes:
 - countries_iso:   6213 (13.7%) 
 - countries_name:  6213 (13.7%)
 
-Se define el origen de esos valores faltantes y la manera de tratarlos (Revisar documento **EDA/Valores Faltantes**)
+Se define el origen de esos valores faltantes y la manera de tratarlos (Revisar documento **Valores_Faltantes en carpeta EDA/**)
 
 #### 2.4 Sesgo (Skewness)
 
@@ -86,8 +86,5 @@ Nota: Estas interacciones se ven afectadas por las alertas presentadas referente
 
 ### 3. Correlaciones
 
-Los aspectos a tener en cuenta fueron detectados en las ALertas
-
-### 4. Valores Faltantes
-
+Los aspectos a tener en cuenta fueron detectados en las Alertas
 
