@@ -23,7 +23,16 @@ Gran herramienta para crear informes en formato HTML interactivo, fácil para en
 #### 2.1 Correlacion Alta
 
 a) popularity vs vote_count
-b) 
+b) vote_count vs revenue
+c) budget vs revenue
+d) budget vs return
+
+#### 2.2 Desbalances
+
+El status nos muestra el 97% de las peliculas con categoria released lo cual indica que el analisis total se va a hacer sobre peliculas estrenadas
+
+#### 2.3 Valores faltantes
+
 
 
 
