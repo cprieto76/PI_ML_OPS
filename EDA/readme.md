@@ -2,7 +2,7 @@
 
 Gran herramienta para crear informes en formato HTML interactivo, utilizado para hacer un **EDA (Exploratory Data Analysis)**
 
-## Analisis del informe report.html
+## Analisis del informe report.html (Duración Analisis: 1 minuto 15 segundos)
 
 ### 1. Overview
 
