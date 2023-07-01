@@ -10,12 +10,14 @@ Herramienta para crear informes en formato HTML interactivo, utilizado para hace
 #### 1.1 Aspectos a destacar
 
 1.1.1 Gran cantidad de valores faltantes (missing values) 19.6 %
+
 1.1.2 Columnas 27 de las cuales:
 - Variables Numericas :        10
 - Variables de Texto:          13
 - Variables Categoricas:        3
 - Variables de Fecha:           1
 
+1.1.3 Filas duplicadas:         0
 
 #### 1.2 Acciones a desarrollar
 
