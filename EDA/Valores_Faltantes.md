@@ -14,10 +14,6 @@ En un escenario MAR, los datos faltantes pueden estar relacionados con ciertas c
 MNAR significa "Missing Not at Random" o "Datos Faltantes No al Azar". En este caso, la falta de datos está relacionada con los valores no observados en el conjunto de datos. La probabilidad de que un dato falte depende de la información contenida en los valores faltantes, lo que implica que los datos faltantes están sistemáticamente relacionados con la variable o atributo que falta.
 En un escenario MNAR, la ausencia de datos puede estar influenciada por factores desconocidos o no medidos en el conjunto de datos, lo que puede introducir sesgos en los análisis posteriores si no se manejan adecuadamente.
 
-*Determinar si los datos faltantes siguen un patrón MCAR, MAR o MNAR puede ser un desafío en la práctica, ya que requiere conocimiento del dominio y análisis detallados de los datos y su recolección. Sin embargo, comprender estos conceptos puede ser útil para abordar y manejar los datos faltantes de manera adecuada al realizar análisis estadísticos o modelado en conjuntos de datos incompletos.*
+*Determinar si los datos faltantes siguen un patrón **MCAR, MAR o MNAR** puede ser un desafío en la práctica, ya que requiere conocimiento del dominio y análisis detallados de los datos y su recolección. Sin embargo, comprender estos conceptos puede ser útil para abordar y manejar los datos faltantes de manera adecuada al realizar análisis estadísticos o modelado en conjuntos de datos incompletos.*
 
 
-
-
-
-Regenerate response
