@@ -14,7 +14,7 @@ Tareas a ejecutar:
 1) ETL
 2) EDA
 3) Machine Learning 
-$) Despliegue de una aplicación con API.
+4) Despliegue de una aplicación con API.
 
 ## Enunciado Proyecto
 
