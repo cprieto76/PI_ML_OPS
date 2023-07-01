@@ -48,6 +48,16 @@ Los siguientes features presentan altos valores faltantes:
 - countries_iso:   6213 (13.7%) 
 - countries_name:  6213 (13.7%) 
 
+#### 2.4 Sesgo (Skewness)
+
+- popularidad: altamente sesgada con un valor gamma γ1 = 29.21, lo cual indica la asimetria en la distribucion de probabilidad. Los valores estan concentrados hacia la izquierda.
+  Hay 40 registros con valor 0 y y el maximo de esa distribucion es 543 . Posible outlier.
+  Hacer revision en detalle para descartar outliers ya que pueden ser causantes de sesgo. Al presentar un valor muy alto erroneo puede interpretar un sesgo equivocado.
+
+- return: altamente sesgada con un valor gamma γ1 = 138.28, lo cual indica la asimetria en la distribucion de probabilidad. Los valores estan concentrados hacia la izquierda.
+  Hay 40033 registros (83.3%) con valor 0 y y el maximo de esa distribucion es 12396383 . Posible outlier.
+  Hacer revision en detalle
+
 
 
 
