@@ -3,6 +3,7 @@
 Gran herramienta para crear informes en formato HTML interactivo, utilizado para hacer un **EDA (Exploratory Data Analysis)**
 
 ## Analisis del informe report.html (Duración Analisis: 1 minuto 15 segundos)
+## Primer vistazo a estado de los datos que pueden requerir transformacion para un analisis mas acertado.
 
 ### 1. Overview
 
@@ -26,6 +27,8 @@ a) popularity vs vote_count
 b) vote_count vs revenue
 c) budget vs revenue
 d) budget vs return
+
+Nota: Revisar si los ceros y valores faltantes puede afetar este analisis
 
 #### 2.2 Desbalances
 
@@ -77,7 +80,8 @@ Cantidad alta de registros con valor cero
 En esta seccion del informe se observa como estan relacionadas las variables o features numericas entre si. Las variables numericas son: 
 - id, popularity, vote_average, vote_count, runtime, budget, revenue, id_btc, release_year, return
  
-#### 2.1 Aspectos relevantes
+Nota: Estas interacciones se ven afectadas por las alertas presentadas referentes a Ceros y Valores Faltantes por lo cual es necesario corregir primero esas Alertas para luego pasar a interpretar o no estas Interactions entre variables numericas
+
 
 
 
