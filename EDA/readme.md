@@ -33,6 +33,21 @@ El status nos muestra el 97% de las peliculas con categoria released lo cual ind
 
 #### 2.3 Valores faltantes
 
+Los siguientes features presentan altos valores faltantes:
+
+- overview:         946 (2.1%) 
+- tagline:        24960 (55.0%)
+- id_btc:         42183 (93.0%) 
+- name_btc:       42183 (93.0%) 
+- poster_btc:     42183 (93.0%) 
+- backdrop_btc:   42183 (93.0%) 
+- iso_639_1:       3792 (8.4%) 
+- language_name:   3915 (8.6%) 
+- companies_id:   12264 (27.0%) 
+- companies_name: 12264 (27.0%) 
+- countries_iso:   6213 (13.7%) 
+- countries_name:  6213 (13.7%) 
+
 
 
 
