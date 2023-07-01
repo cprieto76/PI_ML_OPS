@@ -75,14 +75,15 @@ Cantidad alta de registros con valor cero
 - revenue:        37949 (83.7%) 
 - return:         40033 (88.3%)
 
-  Para los analisis basados en los features (columnas): budget, revenue y return no se debe tener en cuenta los valores iguales a 0 y mirar si los registros que quedan que son aproximadamente entre 5000 y 8000 (20%) son representativos para las conclusiones o para el modelo que se intenta implementar.
+Para los análisis basados en los features (columnas): budget, revenue y return no se debe tener en cuenta los valores iguales a 0 y mirar si los registros que quedan que son aproximadamente entre 5000 y 8000 (20%) son representativos para las conclusiones o para el modelo que se intenta implementar.
 
 ### 2. Interactions
 
 En esta seccion del informe se observa como estan relacionadas las variables o features numericas entre si. 
 
 Las variables numericas son: 
-- id,
+
+- id
 - popularity
 - vote_average
 - vote_count
