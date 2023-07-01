@@ -36,7 +36,7 @@ El status nos muestra el 97% de las peliculas con categoria released lo cual ind
 
 #### 2.3 Valores faltantes
 
-Los siguientes features presentan altos valores faltantes:
+Los siguientes features, y la cantidad y porcentaje de valores faltantes:
 
 - overview:         946 (2.1%) 
 - tagline:        24960 (55.0%)
@@ -49,7 +49,9 @@ Los siguientes features presentan altos valores faltantes:
 - companies_id:   12264 (27.0%) 
 - companies_name: 12264 (27.0%) 
 - countries_iso:   6213 (13.7%) 
-- countries_name:  6213 (13.7%) 
+- countries_name:  6213 (13.7%)
+
+Se define el origen de esos valores faltantes y la manera de tratarlos (Revisar documento Valores Faltantes)
 
 #### 2.4 Sesgo (Skewness)
 
@@ -82,6 +84,10 @@ En esta seccion del informe se observa como estan relacionadas las variables o f
  
 Nota: Estas interacciones se ven afectadas por las alertas presentadas referentes a Ceros y Valores Faltantes por lo cual es necesario corregir primero esas Alertas para luego pasar a interpretar o no estas Interactions entre variables numericas
 
+### 3. Correlaciones
 
+Los aspectosa tener en cuenta fueron detectados en las ALertas
+
+### 4. Valores Falt
 
 
