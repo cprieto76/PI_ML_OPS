@@ -61,14 +61,16 @@ Los siguientes features presentan altos valores faltantes:
 
 #### 2.5 Ceros
 
-Cantidad Alta de registros con valor cero
+Cantidad alta de registros con valor cero
 
 - vote_average:    2944 (6.5%) 
 - vote_count:      2846 (6.3%) 
 - runtime:         1781 (3.9%) 
 - budget:         36470 (80.4%) 
 - revenue:        37949 (83.7%) 
-- return:         40033 (88.3%) 
+- return:         40033 (88.3%)
+
+  Para los analisis basados en los features (columnas): budget, revenue y return no se debe tener en cuenta los valores de 0 y mirar si los registros que quedan que son aproximadamente entre 5000 y 8000 (20%) son representativos para las conclusiones o para el modelo que se intenta implementar.
 
 
 
