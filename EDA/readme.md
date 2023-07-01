@@ -72,7 +72,7 @@ Cantidad alta de registros con valor cero
 
   Para los analisis basados en los features (columnas): budget, revenue y return no se debe tener en cuenta los valores iguales a 0 y mirar si los registros que quedan que son aproximadamente entre 5000 y 8000 (20%) son representativos para las conclusiones o para el modelo que se intenta implementar.
 
-
+### 2. Interactions
 
 
 
