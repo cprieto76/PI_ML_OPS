@@ -74,5 +74,10 @@ Cantidad alta de registros con valor cero
 
 ### 2. Interactions
 
+En esta seccion del informe se observa como estan relacionadas las variables o features numericas entre si. Las variables numericas son: 
+- id, popularity, vote_average, vote_count, runtime, budget, revenue, id_btc, release_year, return
+ 
+Aspectos relevantes
+
 
 
