@@ -1,6 +1,6 @@
 # Libreria pandas_profiling (https://pypi.org/project/pandas-profiling/)
 
-Gran herramienta para crear informes en formato HTML interactivo, fácil para entender y analizar datos.
+Gran herramienta para crear informes en formato HTML interactivo, utilizado para hacer un **EDA (Exploratory Data Analysis)**
 
 ## Analisis del informe report.html
 
