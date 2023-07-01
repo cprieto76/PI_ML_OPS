@@ -50,13 +50,25 @@ Los siguientes features presentan altos valores faltantes:
 
 #### 2.4 Sesgo (Skewness)
 
-- popularidad: altamente sesgada con un valor gamma γ1 = 29.21, lo cual indica la asimetria en la distribucion de probabilidad. Los valores estan concentrados hacia la izquierda.
+- **popularity**: altamente sesgada con un valor gamma γ1 = 29.21, lo cual indica la asimetria en la distribucion de probabilidad.
+  Los valores estan concentrados hacia la izquierda.
   Hay 40 registros con valor 0 y y el maximo de esa distribucion es 543 . Posible outlier.
   Hacer revision en detalle para descartar outliers ya que pueden ser causantes de sesgo. Al presentar un valor muy alto erroneo puede interpretar un sesgo equivocado.
 
-- return: altamente sesgada con un valor gamma γ1 = 138.28, lo cual indica la asimetria en la distribucion de probabilidad. Los valores estan concentrados hacia la izquierda.
+- **return**: altamente sesgada con un valor gamma γ1 = 138.28, lo cual indica la asimetria en la distribucion de probabilidad. Los valores estan concentrados hacia la izquierda.
   Hay 40033 registros (83.3%) con valor 0 y y el maximo de esa distribucion es 12396383 . Posible outlier.
   Hacer revision en detalle
+
+#### 2.5 Ceros
+
+Cantidad Alta de registros con valor cero
+
+- vote_average:    2944 (6.5%) 
+- vote_count:      2846 (6.3%) 
+- runtime:         1781 (3.9%) 
+- budget:         36470 (80.4%) 
+- revenue:        37949 (83.7%) 
+- return:         40033 (88.3%) 
 
 
 
