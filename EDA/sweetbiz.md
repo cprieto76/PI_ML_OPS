@@ -4,7 +4,7 @@ Herramienta toma dataframes de pandas y crea un informe HTML autónomo que se pu
 
 Además de crear visualizaciones interesantes y hermosas con solo dos líneas de código, proporciona un análisis que llevaría mucho más tiempo generar manualmente.
 
-## Analisis del informe sweetviz_report.html (Duración Analisis:      )
+## Analisis del informe sweetviz_report.html (File Size:65.1 MB)
 ### Primer vistazo a estado de los datos que pueden requerir transformacion para un analisis mas acertado.
 
 ### 1. Overview
@@ -12,12 +12,14 @@ Además de crear visualizaciones interesantes y hermosas con solo dos líneas de
 #### 1.1 Aspectos a destacar
 
 1.1.1 Gran cantidad de valores faltantes (missing values) 19.6 %
+
 1.1.2 Columnas 27 de las cuales:
 - Variables Numericas :        10
 - Variables de Texto:          13
 - Variables Categoricas:        3
 - Variables de Fecha:           1
 
+1.1.3 Filas duplicadas:         0
 
 #### 1.2 Acciones a desarrollar
 
