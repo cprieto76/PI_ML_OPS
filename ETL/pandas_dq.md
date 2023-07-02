@@ -21,3 +21,9 @@
 - Detecta distribuciones sesgadas y sugiere aplicar transformaciones o técnicas de escalado.
 - Detecta clases desequilibradas y sugiere utilizar técnicas de remuestreo o pesos de clase.
 - Detecta la fuga de funciones y sugiere evitar el uso de funciones que no están disponibles en el momento de la predicción.
+
+### 2. Fix_DQ class
+
+Es un transformador scikit_learn que puede detectar problemas de calidad en los datos y limpiarlos todos en una línea de código
+
+Fix_DQ es una excelente manera de limpiar un conjunto de datos de entrenamiento completo y aplicar los mismos pasos en un MLOps (Metodologia Machine Learning Operations) a un conjunto de datos de prueba. **Fix_DQ** se puede usar para detectar la mayoría de los problemas en sus datos (similar a find_dq pero sin los pasos relacionados con el objetivo) en un solo paso (durante el método `fit`). Este transformador se puede guardar (o "decapar") para aplicar los mismos pasos en los datos de prueba al mismo tiempo o más tarde.
