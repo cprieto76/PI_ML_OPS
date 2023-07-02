@@ -22,11 +22,11 @@ Nota: sweetbiz no reconoce el campo released_date como date sino como texto
 
 ### 2. Variables
 
-#### 2.1 Id (Id de pelicula).             Numérico
+#### 2.1 Id (Id de pelicula).                           Numérico
 
 Identificador Unico ya que presenta 45436 valores diferentes. No hay valores repetidos.
 
-#### 2.2 title (Titulo de pelicula).     Texto
+#### 2.2 title (Titulo de pelicula).                     Texto
 
 Existen 3150 registros que aparecen mas de una vez. Entre los titulos que mas se repiten de mayor a menor son:
 
@@ -40,9 +40,14 @@ Existen 3150 registros que aparecen mas de una vez. Entre los titulos que mas se
 
 Nota: Revisar el porque de la diferencia y si tiene algun efecto en las solicitudes de la API y en el modelo de Machine Learning
 
-#### 2.3 overview (pequeño resumen).        Texto
+#### 2.3 overview (Resumen breve de la pelicula).        Texto
 
 Los valores mas repetidos son N0overviewfound(133), NoOverview(7), Nomovieoverviewavailable(3), de ahi en adelante son los registros del overview de cada pelicula.
 Entre estos tres valores suman 143 que sumados a los 946 valores faltantes daria un total de 1089 registros que representan un 2,4% 
+
+#### 2.4 popularity (Puntaje popularidad).                Texto
+
+Hay un valor maximo de 547 seguramente es un outlier lo que se deduce al observar el Q1(0), la media (3),  el Q3(4) y el 95%(11)
+Hay 40 ceros y la mediana es 1.
 
 
