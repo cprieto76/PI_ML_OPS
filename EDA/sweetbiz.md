@@ -22,4 +22,15 @@ Nota: sweetbiz no reconoce el campo released_date como date sino como texto
 
 ### 2. Variables
 
-#### 2.1 Aspectos a destacar
+#### 2.1 Id (Id de pelicula)
+
+Identificador Unico ya que presenta 45436 valores diferentes. No hay valores repetidos.
+
+#### 2.2 title (Titulo de pelicula)
+
+Existen 3150 registros que parecen mas de una vez. Entre los titulos que mas se repiten de mayor a menor son:
+- Cinderella:           11
+- Hamlet:                9
+- Alice in Wonderland    9
+
+
