@@ -1,7 +1,7 @@
 # Libreria autoviz [(https://pypi.org/project/autoviz/0.0.6/)]
 
 Realiza la visualizacion automatica de cualquier conjunto de datos, se le puede entregar cualquier archivo json, csv o un dataframe.
-
+La maxima cantidad de filas por analizar es de 150.000 y la maxima de columnas es de 30
 
 
 ## Analisis del informe sweetviz_report.html (File Size:65.1 MB)
