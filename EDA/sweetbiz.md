@@ -66,4 +66,12 @@ Revisar outliers
 Cantidad de ceros 2846 (6%), revisar
 No hay valores faltantes
 
-#### 2.7 status(Votos recibidos).                        Texto
+#### 2.7 status (Estado de la pelicula).                  Texto
+
+ El 99% de los registros son películas Released (estrenadas)
+
+ #### 2.8 original_language (Idioma original).            Texto
+
+
+
+ 
