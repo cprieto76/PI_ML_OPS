@@ -141,7 +141,7 @@ Entre estos tres valores suman 143 que sumados a los 946 valores faltantes daria
 
 #### 2.19 return (revenue/budget).                         Numerico
 
--- Cantidad de ceros el 88% (40.033)
+- Cantidad de ceros el 88% (40.033)
 - Maximo 12.4 B y promedio 0 .
 - Valor 95%: 0 B
 - Retirar los 0 para poder determinar las metricas mas exactas.
@@ -150,3 +150,39 @@ Entre estos tres valores suman 143 que sumados a los 946 valores faltantes daria
 
 - Valores faltantes 27% (12.264)
 - Las compañias con mas peliculas: Metro-Goldwyn- Mayer MGM (742-2%), WarnerBros (540-2%)
+
+#### 2.21 countries_iso (Sigla Pais).            Texto
+
+- 17.836 (46%) Estados Unidos
+- Valores faltantes: 6.213 (14%)
+
+### 2.22 countries_name (Nombre Pais).            Texto
+
+- 17.836 (46%) Estados Unidos
+- Valores faltantes: 6.213 (14%)
+
+### 2.23 release_date (Fecha estreno).            Texto
+
+- El año con mas estrenos 2008 (136)
+- El rango de años con mas estrenos : de 2001 a 2008 (842 - 1.9%)
+- Valores faltantes: 6.213 (14%)
+
+### 2.24 month_time (Mes estreno).            Texto
+
+- El mes con mas estrenos: Enero   (5909-13%)
+- El segundo mes con mas estrenos: Septiembre  (4834-11%)
+- El mes con menos estrenos: Julio (2638- 6%)
+
+El mes de Enero es un mes que genera desconfianza ya que los valores de fecha de estreno que no tenian una fecha exacta pudieron ser registrados con el primer dia del año correspondiente como se observa en los datos de released_date.
+
+Nota: Dato no confiable
+
+### 2.25 month_time (Mes estreno).            Texto
+
+- El mes con mas estrenos: Enero   (5909-13%)
+- El segundo mes con mas estrenos: Septiembre  (4834-11%)
+- El mes con menos estrenos: Julio (2638- 6%)
+
+El mes de Enero es un mes que genera desconfianza ya que los valores de fecha de estreno que no tenian una fecha exacta pudieron ser registrados con el primer dia del año correspondiente como se observa en los datos de released_date.
+
+Nota: Dato no confiable
