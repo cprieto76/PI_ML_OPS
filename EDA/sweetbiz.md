@@ -45,9 +45,16 @@ Nota: Revisar el porque de la diferencia y si tiene algun efecto en las solicitu
 Los valores mas repetidos son N0overviewfound(133), NoOverview(7), Nomovieoverviewavailable(3), de ahi en adelante son los registros del overview de cada pelicula.
 Entre estos tres valores suman 143 que sumados a los 946 valores faltantes daria un total de 1089 registros que representan un 2,4% 
 
-#### 2.4 popularity (Puntaje popularidad).                Texto
+#### 2.4 popularity (Puntaje popularidad).                Numerico
 
-Hay un valor maximo de 547 seguramente es un outlier lo que se deduce al observar el Q1(0), la media (3),  el Q3(4) y el 95%(11)
+Hay un valor maximo de 547 seguramente es un outlier lo que se deduce al observar el Q1(0), la media (3),  el Q3(4) y el 95%(11).
 Hay 40 ceros y la mediana es 1.
+Corrijiendo outliers y valores en 0 podemos establecer parametros estadisticos mas reales.
 
+#### 2.5 vote_average (Puntaje promedio de reseñas).      Numérico
+
+Los valores en cero (2944 - 6%) pueden estar modificando las metricas. Es el valor mas comun, que puede deberse a la ausencia del dato debido a procedimientos en la obtebcion dde la información.
+Nota: Se debe revisar. 
+En segundo lugar de frecuencia el puntaje 6 es el mas comun que corresponde con la media.
+EL rango de la muestra esta entre 0 y 10.
 
