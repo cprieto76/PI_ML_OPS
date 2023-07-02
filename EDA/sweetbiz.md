@@ -40,5 +40,9 @@ Existen 3150 registros que aparecen mas de una vez. Entre los titulos que mas se
 
 Nota: Revisar el porque de la diferencia y si tiene algun efecto en las solicitudes de la API y en el modelo de Machine Learning
 
-2.3 overview (pequeño resumen).        Texto
+#### 2.3 overview (pequeño resumen).        Texto
+
+Los valores mas repetidos son N0overviewfound(133), NoOverview(7), Nomovieoverviewavailable(3), de ahi en adelante son los registros del overview de cada pelicula.
+Entre estos tres valores suman 143 que sumados a los 946 valores faltantes daria un total de 1089 registros que representan un 2,4% 
+
 
