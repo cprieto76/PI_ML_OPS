@@ -97,4 +97,35 @@ Entre estos tres valores suman 143 que sumados a los 946 valores faltantes daria
 
 #### 2.11 tagline (Frase celebre).                         Texto
 
+- Valores faltantes: 24.960 (55%)
+- No hay preponderancia en la frecuencia de algun valor
 
+#### 2.12 id_btc (id de belongs_to_collection).                         Numerico
+
+- Identificador de la collecion
+- Valores faltantes: 42.183 (93%)
+
+#### 2.13 name_btc (name de belongs_to_collection).                         Texto
+
+- Nombre de la collecion
+- Valores faltantes: 42.183 (93%)
+
+#### 2.14 poster_btc (imagen).                         Texto
+
+- Parecen URL de imagenes
+- Valores faltantes: 42.183 (93%)
+
+#### 2.15 backdrop_btc (imagen).                         Texto
+
+- Parecen URL de imagenes
+- Valores faltantes: 42.183 (93%)
+
+#### 2.16 iso_639-1 (Sigla idioma).                         Texto
+
+- 22.366 (54%) en (Ingles)
+- Valores faltantes: 3.792 (8%)
+
+#### 2.17 language_name (Nombre idioma).                         Texto
+
+- 22.366 (54%) solo un idioma  ingles (Ingles)
+- Valores faltantes: 3.915 (9%)
