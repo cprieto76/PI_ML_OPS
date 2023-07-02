@@ -4,11 +4,11 @@
 
 - **pandas_dq** es una nueva biblioteca de python para limpiar automáticamente su conjunto de datos sucios utilizando las funciones pandas scikit_learn. Puede analizar su conjunto de datos y corregirlos, ¡todo en una sola línea de código!
 
-- pandas_dq has two important modules: find_dq and Fix_DQ.
+## pandas_dq tiene dos modulos importantes: find_dq y Fix_DQ.
 
-1. Funcion **find_dq**
+### 1. Funcion find_dq
 
-find_dq` es una función que probablemente sea la forma más popular de usar pandas_dq y realiza los siguientes pasos de análisis de calidad de datos:
+**find_dq** es una función que probablemente sea la forma más popular al usar **pandas_dq**. Realiza los siguientes pasos de análisis de calidad de datos:
 
 - Detecta valores perdidos y sugiere imputarlos con la media, la mediana, la moda o un valor constante.
 - Identifica categorías raras y sugiere agruparlas en una sola categoría o descartarlas.
