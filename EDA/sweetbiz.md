@@ -42,58 +42,58 @@ Nota: Revisar el porque de la diferencia y si tiene algun efecto en las solicitu
 
 #### 2.3 overview (Resumen breve de la pelicula).        Texto
 
--Los valores mas repetidos son N0overviewfound(133), NoOverview(7), Nomovieoverviewavailable(3), de ahi en adelante son los registros del overview de cada pelicula.
+- Los valores mas repetidos son N0overviewfound(133), NoOverview(7), Nomovieoverviewavailable(3), de ahi en adelante son los registros del overview de cada pelicula.
 Entre estos tres valores suman 143 que sumados a los 946 valores faltantes daria un total de 1089 registros que representan un 2,4% 
 
 #### 2.4 popularity (Puntaje popularidad).                Numerico
 
--Hay un valor maximo de 547 seguramente es un outlier lo que se deduce al observar el Q1(0), la media (3),  el Q3(4) y el 95%(11).
--Hay 40 ceros y la mediana es 1.
--Corrijiendo outliers y valores en 0 podemos establecer parametros estadisticos mas reales.
+- Hay un valor maximo de 547 seguramente es un outlier lo que se deduce al observar el Q1(0), la media (3),  el Q3(4) y el 95%(11).
+- Hay 40 ceros y la mediana es 1.
+- Corrijiendo outliers y valores en 0 podemos establecer parametros estadisticos mas reales.
 
 #### 2.5 vote_average (Puntaje promedio de reseñas).      Numérico
 
--Los valores en cero (2944 - 6%) pueden estar modificando las metricas. Es el valor mas comun, que puede deberse a la ausencia del dato debido a procedimientos en la obtencion de la información.
--Nota: Se debe revisar. 
--En segundo lugar de frecuencia el puntaje 6 es el mas comun que corresponde con la media.
--EL rango de la muestra esta entre 0 y 10.
--No hay valores faltantes
+- Los valores en cero (2944 - 6%) pueden estar modificando las metricas. Es el valor mas comun, que puede deberse a la ausencia del dato debido a procedimientos en la obtencion de la información.
+- Nota: Se debe revisar. 
+- n segundo lugar de frecuencia el puntaje 6 es el mas comun que corresponde con la media.
+- El rango de la muestra esta entre 0 y 10.
+- No hay valores faltantes
 
 #### 2.6 vote_count (Votos recibidos).                    Numérico
 
--Valor maximo de 14.075. Media de 10 y 95% de 435.
--Revisar outliers
--Cantidad de ceros: 2846 (6%), revisar
--No hay valores faltantes
+- Valor maximo de 14.075. Media de 10 y 95% de 435.
+- Revisar outliers
+- Cantidad de ceros: 2846 (6%), revisar
+- No hay valores faltantes
 
 #### 2.7 status (Estado de la pelicula).                  Texto
 
- El 99% de los registros son películas Released (estrenadas)
+ - El 99% de los registros son películas Released (estrenadas)
 
  #### 2.8 original_language (Idioma original).            Texto
 
-El 71% de las peliculas son en ingles.
+- El 71% de las peliculas son en ingles.
 
  #### 2.9 runtime (Duración de pelicula).                 Texto
 
- -El promedio es 94 minutos , la mediana es 95 minutos y la moda es 90.
- -Cantidad de ceros: 1781 (4%), revisar
- -Se puede hacer un analisis de los considerados como cortometrajes (menores a 30 minutos, revisar distribucion de frecuencia y tematicas)
+ - El promedio es 94 minutos , la mediana es 95 minutos y la moda es 90.
+ - Cantidad de ceros: 1781 (4%), revisar
+ - Se puede hacer un analisis de los considerados como cortometrajes (menores a 30 minutos, revisar distribucion de frecuencia y tematicas)
 
 #### 2.10 budget (Presupuesto).                         Numerico
 
--Cantidad de ceros el 80% (36.470)
--Maximo 380 M y promedio 4.2 M.
--Valor 95%: 25 M
--Pocos valores por encima de los 25 M, el grueso de la peliculas esta por debajo de los 25 M
--Retirar los 0 para poder determinar las metricas mas exactas ya que promedio y 95% se ven afectados.
+- Cantidad de ceros el 80% (36.470)
+- Maximo 380 M y promedio 4.2 M.
+- Valor 95%: 25 M
+- Pocos valores por encima de los 25 M, el grueso de la peliculas esta por debajo de los 25 M
+- Retirar los 0 para poder determinar las metricas mas exactas ya que promedio y 95% se ven afectados.
 
 #### 2.10 revenue (Recaudación).                         Numerico
 
--Cantidad de ceros el 84% (37.949)
--Maximo 2.8 B y promedio 0 B.
--Valor 95%: 0 B
--Retirar los 0 para poder determinar las metricas mas exactas.
+- Cantidad de ceros el 84% (37.949)
+- Maximo 2.8 B y promedio 0 B.
+- Valor 95%: 0 B
+- Retirar los 0 para poder determinar las metricas mas exactas.
 
 #### 2.11 tagline (Frase celebre).                         Texto
 
