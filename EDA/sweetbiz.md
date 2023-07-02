@@ -129,3 +129,13 @@ Entre estos tres valores suman 143 que sumados a los 946 valores faltantes daria
 
 - 22.366 (54%) solo un idioma  ingles (Ingles)
 - Valores faltantes: 3.915 (9%)
+
+#### 2.18 release_year (Año estreno).                         Texto
+
+- Menor año: 1874
+- Mayor año: 2020
+- Promedio:  1992
+- Mediana:  2001
+- Entre 2000 y 2017 una cantidad significativa de registros
+- La moda es 2014 (1973- 4.4%)
+  
