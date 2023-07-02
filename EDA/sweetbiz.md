@@ -88,49 +88,49 @@ Entre estos tres valores suman 143 que sumados a los 946 valores faltantes daria
 - Pocos valores por encima de los 25 M, el grueso de la peliculas esta por debajo de los 25 M
 - Retirar los 0 para poder determinar las metricas mas exactas ya que promedio y 95% se ven afectados.
 
-#### 2.10 revenue (Recaudación).                         Numerico
+#### 2.11 revenue (Recaudación).                         Numerico
 
 - Cantidad de ceros el 84% (37.949)
 - Maximo 2.8 B y promedio 0 B.
 - Valor 95%: 0 B
 - Retirar los 0 para poder determinar las metricas mas exactas.
 
-#### 2.11 tagline (Frase celebre).                         Texto
+#### 2.12 tagline (Frase celebre).                         Texto
 
 - Valores faltantes: 24.960 (55%)
 - No hay preponderancia en la frecuencia de algun valor
 
-#### 2.12 id_btc (id de belongs_to_collection).                         Numerico
+#### 2.13 id_btc (id de belongs_to_collection).                         Numerico
 
 - Identificador de la collecion
 - Valores faltantes: 42.183 (93%)
 
-#### 2.13 name_btc (name de belongs_to_collection).                         Texto
+#### 2.14 name_btc (name de belongs_to_collection).                         Texto
 
 - Nombre de la collecion
 - Valores faltantes: 42.183 (93%)
 
-#### 2.14 poster_btc (imagen).                         Texto
+#### 2.15 poster_btc (imagen).                         Texto
 
 - Parecen URL de imagenes
 - Valores faltantes: 42.183 (93%)
 
-#### 2.15 backdrop_btc (imagen).                         Texto
+#### 2.16 backdrop_btc (imagen).                         Texto
 
 - Parecen URL de imagenes
 - Valores faltantes: 42.183 (93%)
 
-#### 2.16 iso_639-1 (Sigla idioma).                         Texto
+#### 2.17 iso_639-1 (Sigla idioma).                         Texto
 
 - 22.366 (54%) en (Ingles)
 - Valores faltantes: 3.792 (8%)
 
-#### 2.17 language_name (Nombre idioma).                         Texto
+#### 2.18 language_name (Nombre idioma).                         Texto
 
 - 22.366 (54%) solo un idioma  ingles (Ingles)
 - Valores faltantes: 3.915 (9%)
 
-#### 2.18 release_year (Año estreno).                         Texto
+#### 2.19 release_year (Año estreno).                         Texto
 
 - Menor año: 1874
 - Mayor año: 2020
@@ -139,35 +139,39 @@ Entre estos tres valores suman 143 que sumados a los 946 valores faltantes daria
 - Entre 2000 y 2017 una cantidad significativa de registros
 - La moda es 2014 (1973- 4.4%)
 
-#### 2.19 return (revenue/budget).                         Numerico
+#### 2.20 return (revenue/budget).                         Numerico
 
 - Cantidad de ceros el 88% (40.033)
 - Maximo 12.4 B y promedio 0 .
 - Valor 95%: 0 B
 - Retirar los 0 para poder determinar las metricas mas exactas.
 
-#### 2.20 companies_name (Nombres compañias productoras).            Texto
+#### 2.21 companies_id (Id compañias productoras).            Texto
+
+- Valores faltantes 27% (12.264)
+
+#### 2.22 companies_name (Nombres compañias productoras).            Texto
 
 - Valores faltantes 27% (12.264)
 - Las compañias con mas peliculas: Metro-Goldwyn- Mayer MGM (742-2%), WarnerBros (540-2%)
 
-#### 2.21 countries_iso (Sigla Pais).            Texto
+#### 2.23 countries_iso (Sigla Pais).            Texto
 
 - 17.836 (46%) Estados Unidos
 - Valores faltantes: 6.213 (14%)
 
-### 2.22 countries_name (Nombre Pais).            Texto
+### 2.24 countries_name (Nombre Pais).            Texto
 
 - 17.836 (46%) Estados Unidos
 - Valores faltantes: 6.213 (14%)
 
-### 2.23 release_date (Fecha estreno).            Texto
+### 2.25 release_date (Fecha estreno).            Texto
 
 - El año con mas estrenos 2008 (136)
 - El rango de años con mas estrenos : de 2001 a 2008 (842 - 1.9%)
 - Valores faltantes: 6.213 (14%)
 
-### 2.24 month_time (Mes estreno).            Texto
+### 2.26 month_time (Mes estreno).            Texto
 
 - El mes con mas estrenos: Enero   (5909-13%)
 - El segundo mes con mas estrenos: Septiembre  (4834-11%)
@@ -177,12 +181,9 @@ El mes de Enero es un mes que genera desconfianza ya que los valores de fecha de
 
 Nota: Dato no confiable
 
-### 2.25 month_time (Mes estreno).            Texto
+### 2.27 day_time (Dia estreno).            Texto
 
-- El mes con mas estrenos: Enero   (5909-13%)
-- El segundo mes con mas estrenos: Septiembre  (4834-11%)
-- El mes con menos estrenos: Julio (2638- 6%)
+- El dia con mas estrenos: Viernes   (13902-31%)
+- El segundo dia con mas estrenos: Jueves  (7520-17%)
+- El dia con menos estrenos: Lunes (3497- 8%)
 
-El mes de Enero es un mes que genera desconfianza ya que los valores de fecha de estreno que no tenian una fecha exacta pudieron ser registrados con el primer dia del año correspondiente como se observa en los datos de released_date.
-
-Nota: Dato no confiable
