@@ -28,9 +28,13 @@ Identificador Unico ya que presenta 45436 valores diferentes. No hay valores rep
 
 #### 2.2 title (Titulo de pelicula)
 
-Existen 3150 registros que parecen mas de una vez. Entre los titulos que mas se repiten de mayor a menor son:
-- Cinderella:           11
-- Hamlet:                9
-- Alice in Wonderland    9
+Existen 3150 registros que aparecen mas de una vez. Entre los titulos que mas se repiten de mayor a menor son:
+- Cinderella:             11
+- Hamlet:                  9
+- Alice in Wonderland      9
+- Beauty and the Beast     8
+- Les Miserables           8
+- Treasure Island          7
+- The Three Musketeers     7
 
 
