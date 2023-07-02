@@ -138,4 +138,15 @@ Entre estos tres valores suman 143 que sumados a los 946 valores faltantes daria
 - Mediana:  2001
 - Entre 2000 y 2017 una cantidad significativa de registros
 - La moda es 2014 (1973- 4.4%)
-  
+
+#### 2.19 return (revenue/budget).                         Numerico
+
+-- Cantidad de ceros el 88% (40.033)
+- Maximo 12.4 B y promedio 0 .
+- Valor 95%: 0 B
+- Retirar los 0 para poder determinar las metricas mas exactas.
+
+#### 2.20 companies_name (Nombres compañias productoras).            Texto
+
+- Valores faltantes 27% (12.264)
+- Las compañias con mas peliculas: Metro-Goldwyn- Mayer MGM (742-2%), WarnerBros (540-2%)
