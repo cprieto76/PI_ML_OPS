@@ -57,4 +57,13 @@ Los valores en cero (2944 - 6%) pueden estar modificando las metricas. Es el val
 Nota: Se debe revisar. 
 En segundo lugar de frecuencia el puntaje 6 es el mas comun que corresponde con la media.
 EL rango de la muestra esta entre 0 y 10.
+No hay valores faltantes
 
+#### 2.6 vote_count (Votos recibidos).                    Numérico
+
+Valor maximo de 14.075. Media de 10 y 95% de 435.
+Revisar outliers
+Cantidad de ceros 2846 (6%), revisar
+No hay valores faltantes
+
+#### 2.7 status(Votos recibidos).                        Texto
