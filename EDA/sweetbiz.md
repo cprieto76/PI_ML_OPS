@@ -63,7 +63,7 @@ No hay valores faltantes
 
 Valor maximo de 14.075. Media de 10 y 95% de 435.
 Revisar outliers
-Cantidad de ceros 2846 (6%), revisar
+Cantidad de ceros: 2846 (6%), revisar
 No hay valores faltantes
 
 #### 2.7 status (Estado de la pelicula).                  Texto
@@ -72,6 +72,29 @@ No hay valores faltantes
 
  #### 2.8 original_language (Idioma original).            Texto
 
+El 71% de las peliculas son en ingles.
+
+ #### 2.9 runtime (Duración de pelicula).                 Texto
+
+ El promedio es 94 minutos , la mediana es 95 minutos y la moda es 90.
+ Cantidad de ceros: 1781 (4%), revisar
+ Se puede hacer un analisis de los considerados como cortometrajes (menores a 30 minutos, revisar distribucion de frecuencia y tematicas)
+
+#### 2.10 budget (Presupuesto).                         Numerico
+
+Cantidad de ceros el 80% (36.470)
+Maximo 380 M y promedio 4.2 M.
+Valor 95%: 25 M
+Pocos valores por encima de los 25 M, el grueso de la peliculas esta por debajo de los 25 M
+Retirar los 0 para poder determinar las metricas mas exactas ya que promedio y 95% se ven afectados.
+
+#### 2.10 revenue (Recaudación).                         Numerico
+
+Cantidad de ceros el 84% (37.949)
+Maximo 2.8 B y promedio 0 B.
+Valor 95%: 0 B
+Retirar los 0 para poder determinar las metricas mas exactas.
+
+#### 2.11 tagline (Frase celebre).                         Texto
 
 
- 
