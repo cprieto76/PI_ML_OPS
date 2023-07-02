@@ -37,4 +37,6 @@ Existen 3150 registros que aparecen mas de una vez. Entre los titulos que mas se
 - Treasure Island          7
 - The Three Musketeers     7
 
+Nota: Revisar el porque de la diferencia y si tiene algun efecto en las solicitudes de la API y en el modelo de Machine Learning
+
 
