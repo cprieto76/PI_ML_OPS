@@ -19,5 +19,10 @@ Cada vez que construyes una imagen usando un dockerfile puedes asignarle una eti
 Una máquina virtual permite ejecutar múltiples sistemas operativos simultáneamente en una misma máquina física.
 Cada máquina virtual tiene su propio kernel, sistema operativo, aplicaciones y recursos asignados, lo que proporciona un aislamiento casi completo del sistema anfitrión.
 - **Entorno virtual**:ofrece un aislamiento más ligero dentro de un mismo sistema operativo para gestionar las dependencias de una aplicación específica y evitar   conflictos entre proyectos
+- **Discouraged tag**: Etiqueta desaconsejada por obsolescencia, por antiguedad o porque existe una alternativa mas moderna. Su uso puede no ser optimo.
+- **Deprecated tag**: Eqtiqueta en desuso u obsoleta. Elementos obsoletso que seran eliminados en versiones futuras.
+- **Alpine**: Alpine Linux es una distribución de Linux diseñada para ser ligera, eficiente y segura, lo que la convierte en una opción popular para la creación de imágenes de contenedores Docker
+- Una versión **"slim"** de una imagen Docker se refiere a una versión ligera y minimalista de esa imagen. Estas imágenes están diseñadas para ser lo más pequeñas posible al eliminar componentes y dependencias innecesarias, pero aún proporcionando la funcionalidad necesaria para ejecutar la aplicación o servicio
+
   
  
